@@ -4,7 +4,7 @@
 ## Description:
 
 
-![title image](/public/assets/images/title.png)
+![title image](/public/assets/images/logo.png)
 
 ## Build Status
 
@@ -36,13 +36,6 @@ Node dependencies:
 ## Built With
 - Materialize CSS - Front-end HTML, CSS, javascript framework for creating responsive web applications
 - JavaScript - Programming language
-- jQuery - Javascript library
-- node.js - Server side programming language
-- express.js - Web application framework used for server side routing
-- body-parser - Middleware parser used for incoming request bodies
-- handlebars - Templating engine
-- Sequelize -Promise-baed ORM for Node.js using MySQL database management system
-- JSON Web Tokens - JSON-based open standard (RFC 7519) for creating access tokens for securely transmitting information between client and server
 
 ## Authors:  
 Eddie Rodriguez
