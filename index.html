@@ -43,6 +43,28 @@
 
 <body>
 
+// Left Aligned Nav Bar
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Overview</a></li>
+        <li><a href="badges.html">Features</a></li>
+        <li><a href="collapsible.html">Product Demo</a></li>
+        <li><a href="mobile.html">Pricing</a></li>
+        <li><a href="mobile.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+
   <container class="container borders">
     <div class="row"><br></div>
     <div class="row">
@@ -264,6 +286,10 @@
 <script>  $(document).ready(function(){
     $('.slider').slider();
     $('.modal').modal();
+  });
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
   });
         
 </script>
