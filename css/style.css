@@ -1,0 +1,106 @@
+/* Global  */
+  body {
+    /* background: linear-gradient(#192231, #003A67,#98878f); */
+    background: rgba(17, 20, 24, 0.87);
+    color: whitesmoke;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .skill-img{
+    height: 45px;
+    width: 45px
+  }
+
+  #main {
+    flex: 1 0 auto;
+  }
+
+  .fonty{
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+  }
+  nav {
+    height: 80px;
+    /* padding-bottom: 20px 0; */
+    /* margin: 10px 0; */
+  }
+  .nav-wrapper {
+    background-color: #192231;
+    /* padding: 10px 0;  */
+  }
+
+  .menuIcon {
+    font-size: 80px
+  }
+
+  .slider-image{
+    -webkit-filter:grayscale(10%) brightness(50%) blur(1px);
+    filter: grayscale(10%) brightness(50%) blur(1px);
+  }
+
+  .borders{
+    border-color: white;
+    border-width: 1px;
+  }
+  .card-image{
+    height: 250ppx;
+
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .portfolio-section img{
+    opacity: .7;
+  }
+
+  .right-margin{
+    margin-right: 10px;
+  }
+
+  .bottom-margin{
+    margin-bottom: 30px;
+  }
+
+/* Footer */
+  .page-footer{
+    background-color: transparent;
+    clear: both;
+    margin-top: 20px;
+    padding-top: 30px;
+  }
+/* use this color for icons 5FA3D4 */
+
+/* Colors for inputs */
+
+  /* label color */
+  .input-field label {
+    color: rgb(0, 153, 255);
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(73, 72, 72);
+    box-shadow: 0 1px 0 0 rgb(73, 72, 72);
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid rgb(192, 110, 4);
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: rgb(5, 78, 42);
+  }
+     
