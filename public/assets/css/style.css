@@ -1,0 +1,152 @@
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* Global  */
+  body {
+    background: linear-gradient(#192231, #003A67,#98878f);
+    /* #003A67 removed this color for now */
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+  }
+
+  nav {
+    height: 80px;
+    /* padding-bottom: 20px 0; */
+    /* margin: 10px 0; */
+  }
+  .nav-wrapper {
+    background-color: #192231;
+    /* padding: 10px 0;  */
+  }
+
+  .menuIcon {
+    font-size: 80px
+  }
+
+  #button {
+    background-color: #c5305f;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* Home */
+  .about-text {
+    padding: 0 15px;
+    font-size: 18px;
+  }
+
+  .signInBtn {
+    background-color: #c5305f; 
+  }
+
+  .card-image {
+    padding-top: 25px;
+  }
+
+  .card-content {
+    color: black;
+  }
+
+  #signIn, #addFav, #editCoin {
+    color: black;
+  }
+
+  #addFav {
+    height: 100%; 
+  }
+
+  #editCoin {
+    height: 40%; 
+  }
+
+  .activator {
+    cursor: pointer;
+  }
+
+  .news-section img{
+    opacity: .6;
+  }
+  
+/* Learn */
+  HEAD
+  /* Added CSS for the Pie Chart */
+    #chart {                                                          
+      height: 360px;                                                  
+      position: relative;                                             
+      width: 360px;                                                   
+    }                                                                 
+    .tooltip {                                                        
+      background: #eee;                                               
+      box-shadow: 0 0 5px #999999;                                    
+      color: rgb(70, 191, 196);      
+      fill: rgb(16, 219, 255);                                              
+      display: none;                                                  
+      font-size: 16px;                                                
+      left: 130px;                                                    
+      padding: 10px;                                                  
+      position: absolute;                                             
+      text-align: center;                                             
+      top: 95px;                                                      
+      width: 100px;                                                    
+      z-index: 10;                                                    
+    }   
+
+    .legend {
+      font-size: 14px;
+      color: white;
+      fill: white;
+    }
+
+    rect {
+      stroke-width: 2;
+    }
+
+  /* End CSS for Pie Chart */
+
+  .info-slider {
+  padding-top: 10px;
+  }
+
+  #arrowBtnL {
+    position: absolute; 
+    bottom: 50%; 
+    left: 8%; 
+    z-index: 1; 
+    background-color: white;
+    color: black;
+  }   
+
+  #arrowBtnR {
+    position: absolute; 
+    bottom: 50%; 
+    z-index: 1; 
+    right: 8%; 
+    background-color: white;
+    color: black;
+  }
+
+  .icon-list {
+    padding: 20px 0;
+  }
+
+  .coinBtns {
+    cursor: pointer;
+  }
+
+  .slideImages {
+    border-radius: 20px; 
+  }
+
+/* Compare */
+#buttonForComp {
+  margin-top: 40px;
+}
+
+/* Footer */
+  .page-footer{
+    background-color: transparent;
+  }

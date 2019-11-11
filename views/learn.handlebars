@@ -1,0 +1,112 @@
+  <div class = "info-slider">
+    <div class = "col s12 center-align">
+      <div class = "slider-container">
+      </div>
+      <a class="waves-effect waves-light btn-floating btn-large pulse slideBtns pink darken-3" id="arrowBtnL"><i class="material-icons right">arrow_back</i></a>
+      <a class="waves-effect waves-light btn-large btn-floating pulse slideBtns pink darken-3" id="arrowBtnR"><i class="material-icons right">arrow_forward</i></a>
+    </div>
+  </div>
+
+  <div class = "icon-list">
+    <div class = "container">
+      <div class = "col s12 center-align">
+        <div class = "row ">
+        <div class ="col s1"></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="ada" src="../assets/images/ada.Cardano.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="bat" src="../assets/images/bat.BasicAttentionToken.png" style="width:70px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="btc" src="../assets/images/btc.Bitcoin.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="doge" src="../assets/images/doge.Dogecoin.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="eth" src="../assets/images/eth.Ethereum.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="ltc" src="../assets/images/ltc.Litecoin.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="trx" src="../assets/images/trx.TronCoin.png" style="width:60px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="ven" src="../assets/images/ven.VeChain.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="xlm" src="../assets/images/xlm.stellar.png" style="width:50px; height:50px"></a></div>
+        <div class="col s1 hoverable"><img class="coinBtns" id="xrp" src="../assets/images/xrp.Ripple.png" style="width:50px; height:50px"></a></div>
+        <div class ="col s1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "coin-info">
+    <div class = "col s12">
+      <div class="coinInfo">
+          <div class="row">
+            <div class="col s6">
+              <div class="card transparent">
+                <div class="card-action">
+                  <div class="large material-icons right-align">stars<span> BASIC INTEL</span></div>
+                </div>
+                <div class="card-content white-text">
+                  <div></div>
+                  <h4><span id="name"></span></h4>
+                  <h6>Description: <span id="description"></span></h6>
+                  <h6>Markets: <span id="markets"></span></h6>
+                  <h6>Start Date: <span id="start"></span></h6>
+                  <h6>Features: <span id="features"></span></h6>
+                  <h6>Disadvantages: <span id="disadvantage"></span></h6>
+                </div>
+                <div class="card-action">
+                  <a id="web" target="_blank" href="#">Website</a>
+                  <a id="git" target="_blank" href="#">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s6">
+              <div class="card transparent">
+                <div class="card-action">
+                  <div class="large material-icons right-align">assessment<span> MARKET PERFORMANCE</span></div>
+                  </div>
+                <div class="card-content white-text">
+                  <div id="chart" class="center-align"></div>
+                  <h4>Price: <span id="price"></span></h4>
+                  <h6>Last Hour: <span id="chg1H"></span></h6>
+                  <h6>24 Hours: <span id="chg24H"></span></h6>
+                  <h6>7 Days: <span id="chg7d"></span></h6>
+                  <h6>Market Cap: <span id="mktCap"></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+   
+   <style>
+      #chart {                                                      
+        height: 360px;                                             
+        position: relative;                                        
+        width: 360px;                                              
+      }                                                            
+      .tooltip {                                                   
+        background: #eee;                                          
+        box-shadow: 0 0 5px #999999;                               
+        color: rgb(204, 204, 204);                                       
+        display: none;                                             
+        font-size: 16px;                                           
+        left: 130px;                                               
+        padding: 10px;                                             
+        position: absolute;                                        
+        text-align: center;                                        
+        top: 95px;                                                
+        width: 80px;                                               
+        z-index: 10;                                
+      }                                                             
+      .legend {
+        font-size: 12px;
+      }
+      rect {
+        stroke-width: 2;
+      }
+    </style>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+    <script>
+      
+    </script>
+
+
+

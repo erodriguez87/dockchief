@@ -1,0 +1,157 @@
+{{!-- ABOUT CV --}}
+  <div class = "about-section">
+    <div class="col s12">
+      <div class = "about-text">    
+      <h2>Welcome to the Cryptoverse</h2> 
+        <div class = "row">
+
+          <div class = "col s12 m12 l8"
+            <p>Where new investors can learn the basics of Crypto, compare currencies, and  get the latest news! Create an account to keep track of your balance and monitor how your favorite currencies are doing in the market. </p>
+          </div>
+            <div class = "col s12 m12 l4 center-align">
+              <button data-target="signIn" class="center btn modal-trigger signInBtn">Access User Dashboard</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{!-- CHART/ HOME IMAGE --}}
+  <div class = "animated-chart">
+    <div class = "row">
+      <div class="col l12 m12 s12 center-align">
+        <img class="responsive-img" src = "../assets/images/universe2.jpg" style="width: 1000px; max-height:320px"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="userDashboard col s10 center">
+    <div class="userMain"></div>
+    <div class="userCoins"></div>
+  </div>
+
+  <!-- Sign-In Modal -->
+  <div id="signIn" class="modal">
+    <div class="modal-content center">
+      <h4>User Log-In</h4>
+      <p>Don't be a chump! Click the button to sign up!</p>
+      <div class="row">
+        <form class="col s10">
+          <input placeholder="Name" id="name" type="text" class="validate">
+          <input placeholder="Email" id="email" type="email" class="validate">
+          <input placeholder="Password" id="password" type="password" class="validate">
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer center">
+      <button class="btn modal-close" id="logInBtn">Log-In</button>
+      <button class="btn modal-close" id="signUpBtn">Sign-Up</button>
+    </div>
+  </div>
+
+  <!-- Add Coin Modal -->
+  <div id="addFav" class="modal">
+    <div class="modal-content center">
+      <h4>Add Crypto to you Favorites</h4>
+      <div class = "Add Crypto">
+        <div class = "row">
+          <div class="input-field col s12">
+            <select id="coinOptions">
+              <option value="" disabled selected>Choose a Currency</option>
+              <option value="ADA">Cardano (ADA)</option>
+              <option value="BAT">Basic Attention Token (BAT)</option>
+              <option value="BTC">Bitcoin (BTC)</option>
+              <option value="DOGE">Dogecoin (DOGE)</option>
+              <option value="ETH">Ethereum (ETH)</option>
+              <option value="LTC">Litecoin (LTC)</option>
+              <option value="TRX">Tron (TRX)</option>
+              <option value="VEN">VeChain (VEN)</option>
+              <option value="XLM">Stellar (XLM)</option>
+              <option value="XRP">Ripple (XRP)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer center">
+      <button class="btn center modal-close" id="addCoinBtn">Add Crypto</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- COIN/ USER WIDGETS -->
+  <div class = "crypto-widgets">
+    <div class = "container">
+      <div class="row coinCardContainer"></div>
+    </div>
+  </div>
+
+  <!-- NEWS CONTAINER -->
+  <div class = "news-section">
+    <div class = "row">
+      <div class="col s12">
+        <h2>News</h2>
+        <div class="col s12">
+          <div class="slider center-align">
+              <ul class="slides">
+                <li>
+                  <img id="img1" src=""> 
+                  <div class="caption center-align">
+                    <h5 id="date1"></h5>
+                    <h3 id="title1"></h3>
+                    <h5 id="url1" class="light grey-text text-lighten-3"></h5>
+                  </div>
+                </li>
+                <li>
+                  <img id="img2" src=""> 
+                  <div class="caption center-align">
+                    <h5 id="date2"></h5>
+                    <h3 id="title2"></h3>
+                    <h5 id="url2" class="light grey-text text-lighten-3"></h5>
+                  </div>
+                </li>
+                <li>
+                  <img id="img3" src=""> 
+                  <div class="caption center-align">
+                    <h5 id="date3"></h5>
+                    <h3 id="title3"></h3>
+                    <h5 id="url3" class="light grey-text text-lighten-3"></h5>
+                  </div>
+                </li>
+                <li>
+                  <img id="img4" src=""> 
+                  <div class="caption center-align">
+                    <h5 id="date4"></h5>
+                    <h3 id="title4"></h3>
+                    <h5 id="url4" class="light grey-text text-lighten-3"></h5>
+                  </div>
+                </li>
+                {{!-- <li>
+                  <img id="img5" src=""> 
+                  <div class="caption center-align">
+                    <h5 id="date5"></h5>
+                    <h3 id="title5"></h3>
+                    <h5 id="url5" class="light grey-text text-lighten-3"></h5>
+                  </div>
+                </li> --}}
+              </ul>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <script>
+      function getNews(){
+
+var currentURL = window.location.origin;
+
+
+
+getNews();
+
+   $(document).ready(function () {
+       $('.slider').slider({full_width: true});
+   });
+   
+</script>
