@@ -1,8 +1,7 @@
 /* Global  */
   body {
     /* background: linear-gradient(#192231, #003A67,#98878f); */
-    background: rgba(17, 20, 24, 0.87);
-    color: whitesmoke;
+    /* color: whitesmoke; */
     display: flex;
     min-height: 100vh;
     flex-direction: column;
