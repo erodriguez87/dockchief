@@ -1,13 +1,9 @@
-/* 
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
 
 /* Global  */
   body {
-    background: linear-gradient(#192231, #003A67,#98878f);
+    background: linear-gradient(#0f1114, rgb(16, rgb(75, 71, 85),#98878f);
     /* #003A67 removed this color for now */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Handlee', cursive;
     color: whitesmoke;
   }
 
